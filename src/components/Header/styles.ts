@@ -10,12 +10,12 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4 rem;
+  height: 4rem;
   border-bottom: 1px solid ${({ theme }) => theme.backgroundLight};
 
   ul {
     display: flex;
-    gap: 2 rem;
+    gap: 2rem;
     align-items: center;
   }
 `;
