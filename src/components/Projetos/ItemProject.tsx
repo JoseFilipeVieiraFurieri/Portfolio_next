@@ -9,7 +9,7 @@ interface ProjetoProps {
   img: string;
 }
 
-function ProjetosItem({ title, type, slug, img }: ProjetoProps) {
+function ItemProject({ title, type, slug, img }: ProjetoProps) {
   return (
     <ProjetoContainer imgUrl={img}>
       <section>
@@ -30,4 +30,4 @@ function ProjetosItem({ title, type, slug, img }: ProjetoProps) {
   );
 }
 
-export default ProjetosItem;
+export default ItemProject;
